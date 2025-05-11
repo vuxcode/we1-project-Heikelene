@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<head>
+<!--Creating a Title for the projekt-->
+	<title>BunnyCafe</title>
+	<style> 
+/*Creating class elements, will propably shorthand them later, just want to be able to toggle the sizes at the moment*/
+    .align-text {			
+			text-align: center;
+		}
+		.figure-size { /*is for the BunnyCafe logo*/
+			margin-top: -282px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 212px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;
+		}
+		.header-size { /*is for the Opening hours header*/
+			color: rgb(240, 212, 199);
+			display: inline-block;
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 587px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;
+			text-align: center;
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}	
+		.header-size2 { /*is for the Visit us header*/
+			color:rgb(240, 212, 199);
+			display: inline-block;
+			margin-top: 69px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 16px;
+			padding-top: 109px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;
+			text-align: center;	
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}
+		.header-size3 { /*is for the Contact header*/
+			color: rgb(240, 212, 199);
+			display: inline-block;
+			margin-top: 16px;
+			margin-right: -148px;
+			margin-bottom: 0px;
+			margin-left: 16px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 0px;
+			padding-left: 16px;	
+			text-align: center;
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}
+		.section-size1 { /*is for the About-link in the menubar*/
+			display: inline-block;
+			font-family: cursive; 
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 20px;
+			margin-left: -25px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;				
+		}
+		.section-size2 { /*is for the Menu-link in the menubar*/			
+			display: inline-block;
+			font-family: cursive; 
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;			
+		}
+		.section-size3 { /*is for the Meet the buns-link in the menubar*/
+			display: inline-block;
+			font-family: cursive; 
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;	
+		}
+		.section-size4 { /*is for the Pen-Rules-link in the menubar*/
+			background-color: rgb(139, 118, 100);
+			border: solid 1px rgb(66, 55, 33); 
+			border-radius: 15px;
+			box-shadow: 5px 5px 5px rgb(49, 40, 35);	
+			display: inline-block;
+			font-family: cursive; 
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;		
+		}
+		.section-size5 { /*is for the Adopt-link in the menubar*/
+			display: inline-block;
+			font-family: cursive;
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;	
+		}
+		.section-size6 { /*is for the Grooming services-link in the menubar*/
+			display: inline-block;
+			font-family: cursive;
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;	
+		}	
+		a:active, a:link, a:visited { /*for the links in the menybar*/
+			color: rgb(48, 34, 27);
+			text-decoration: none;	
+			text-shadow: 2px 2px 10px rgb(240, 239, 238);
+		}
+		a:hover {
+			display: inline-block;
+			background-color: rgb(170, 153, 137);
+			border-radius: 5px;
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			text-decoration: none;	
+		}						      
+		article { /*Is for all of the links in the menubar*/
+			display: inline-block;
+			font-size: 23px; 
+			text-align: center;
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: -20px;
+			margin-left: 380px;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-bottom: 0px;
+			padding-left: 16px;	
+		}
+		body { 
+			/*font-family: Arial, Helvetica, sans-serif; -changes the text in all of the element*/
+			font-family: emoji;
+			color: rgb(255, 245, 236);
+			background-color:  #58453b; 
+			min-width: 1400px;
+			max-width: 1400px;
+		}		
+		main { /*is for the About text */
+			background-color: rgb(139, 118, 100);
+			border: solid 1px rgb(66, 55, 33); 	
+			border-radius: 25px;
+			box-shadow: 5px 5px 5px rgb(49, 40, 35);
+			display: inline-block;
+			font-size: 18px; 	
+			margin-top: -10px;
+			margin-right: 70px;
+			margin-bottom: 16px;
+			margin-left: 350px;
+			padding-top: 42px;
+			padding-right: 93px;
+			padding-bottom: 42px;
+			padding-left: 148px;
+			text-align: justify;
+			text-shadow: 2px 2px 10px rgb(49, 40, 35);	
+		}		
+		#bun_pics { /*property for the "Meet the buns" pictures */			
+			display: inline-block;
+		}			  	
+		#fixerupper {
+			border: dotted 7px  rgb(66, 55, 33); 
+			border-radius: 5px;
+			display: inline-block;						
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -44px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;	
+		}
+		#upperfixer {
+			display: inline-block;						
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 16px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 54px;	
+		}
+		</style>
+</head>
+
+<body>   
+<!--Instead of naming everything div, I'll use header for the header text of the site and figure for the logo. Main will wrap it all-->
+	<nav>
+		<header class="header-size">
+			<h3>Opening hours</h3>   
+			<p>Monday - Friday: 10:00 - 21:00<br>Saturday - Sunday: 10:00-18:00</p>
+		</header>
+		<header class="header-size2">
+			<h3>Visit us</h3>
+			<p>The Cafe is located at Bluffgatan 22, <br>at the heart of the Skövde centrum.</p>
+		</header>
+		<header class="header-size3">
+			<h3>Contact</h3>
+			<p>Phonenumber: 90 510 <br>E-mail: BunnyCafe@skovde.se</p>
+		</header>
+		<figure class="figure-size">
+			<img src="Bunnycafelogo.png"; style="height: 279px; width: 322px;"> 
+		</figure>
+	</nav>
+<!--menubar for all the header links-->
+	<article>
+		<section class="section-size1"><a href="about.html">About</a></section>
+		<sections class="section-size2"><a href="menu.html">Menu</a></sections>
+		<section class="section-size3"><a href="meet_the_buns.html">Meet the buns</a></section>
+		<section class="section-size4"><a href="pen-Rules.html">Pen-Rules</a></section>
+		<section class="section-size5"><a href="adopt.html">Adopt/Foster</a></section>	
+		<section class="section-size6"><a href="grooming.html">Grooming services</a></section>
+	</article>
+
+	<main> <!--Writing the information for the Pen-Rules here-->				
+		<div id="fixerupper">			
+			<section id="upperfixer">					
+				<h2 class="align-text" style="color:rgb(59, 48, 42); text-shadow: 2px 2px 10px rgb(255, 255, 255);">Pen-Rules
+				<br><br><img src="ekollon2.png"; style="height: 65px; width: 200px;">
+				</h2>	
+				<p><h4 style="color:rgb(59, 48, 42); text-shadow: none"><b>1. <u>Entrance into the bunny play-pen is only for guests over 5 years old.</h4>					
+					</u></b>Children between 5 to 10 years old must be accompanied<br> and supervised at all times by a grown-up.
+				</p>	
+				<p><h4 style="color:rgb(59, 48, 42); text-shadow: none"><b>2. <u>Be calm and quiet</h4>					
+					</u></b>Bunnies get spooked and stressed by loud noises and sudden movements, so be mindful of that.
+				</p> 
+				<p><h4 style="color:rgb(59, 48, 42); text-shadow: none"><b>3. <u>DO NOT pick up the bunnies whitout the permission from the staff!</u></b></h4> 
+				</p>	
+				<p><h4 style="color:rgb(59, 48, 42); text-shadow: none"><b>4. <u>Only pet the bunnies that approach you out of their own free will.</h4>
+					</u></b>Please respect their individual boundaries
+				</p>	
+				<p><b><h4 style="color:rgb(59, 48, 42); text-shadow: none">5. <u>Pet the bunnies gently</h4>					
+					</u><b>Bunnies like to be petted around the face, ears and back.
+				</p>	
+				<p><b><h4 style="color:rgb(59, 48, 42); text-shadow: none">6. <u>Do not pull bunnies by their ears, tail, whiskers or any other body parts.</h4>					
+					</u></b>This hurt them, simple as that.
+				</p>
+				<p><b><h4 style="color:rgb(59, 48, 42); text-shadow: none">7. <u>Only give them treats prepared from the staff.</h4>					
+					</u><b>Bunnies have sensitive tummies and cannot eat everything. <br>The treats that we provide are good for them.
+				</p>								
+				<h3 style="color:rgb(140, 5, 3); text-shadow: none"><br>And finally dont fire them out of a cannon! 🤯🚫 
+					<br>(I don't know how many things I need to tell you not to do.)</h3> 
+				<h3 class="align-text" style="color:rgb(59, 48, 42); text-shadow: none"><br><br>All in all, be respectful and gentle with our bunnies.🐇🩷
+				<br><br><br><img src="ekollon.png"; style="height: 65px; width: 200px;"></h3>				
+			</section>	
+		</div>	
+					
+	</main>
+
+</body>
+</html>
