@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<head>
+<!--Title for the projekt-->
+	<title>BunnyCafe</title>
+	<style> 
+/*Creating class elements, will propably shorthand them later, just want to be able to toggle the sizes at the moment*/
+   		.align-text {
+			text-align: center;
+		}
+		.drinks { /* Values for the drinks */			
+			border: dashed 3px #fff9cd; 
+			border-radius: 10px;
+			display: inline-block;
+			margin-top: 50px;
+			margin-right: 0px;
+			margin-bottom: 16px;
+			margin-left: -81px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 0px;
+			text-align: justify;
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}
+		.food { /* Values for the food */	
+			border: dashed 3px #ffb489;  
+			border-radius: 30px;
+			display: inline-block;
+			display: inline-block;
+			margin-top: 0px;
+			margin-right: -159px;
+			margin-bottom: 16px;
+			margin-left: -81px;
+			padding-top: 16px;
+			padding-right: 11px;
+			padding-bottom: 16px;
+			padding-left: 0px;
+			text-align: justify;
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}
+		.snacks { /* Values for the snacks */	
+			border: dashed 3px rgb(114, 83, 59); 
+			border-radius: 25px;
+			display: inline-block;
+			margin-top: 0px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 16px;
+			padding-top: 16px;
+			padding-right: 10px;
+			padding-bottom: 16px;
+			padding-left: 0px;
+			text-align: justify;
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}			
+		.figure-size { /*For the BunnyCafe logo*/
+			margin-top: -282px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 212px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;
+		}
+		.header-size { /*is for the Opening hours header*/
+			color: rgb(240, 212, 199);
+			display: inline-block;
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 587px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;
+			text-align: center;
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);	
+		}	
+		.header-size2 { /*is for the Visit us header*/
+			color:rgb(240, 212, 199);
+			display: inline-block;
+			margin-top: 69px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 16px;
+			padding-top: 109px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;
+			text-align: center;	
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}
+		.header-size3 { /*is for the Contact header*/
+			color: rgb(240, 212, 199);
+			display: inline-block;
+			margin-top: 16px;
+			margin-right: -148px;
+			margin-bottom: 0px;
+			margin-left: 16px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 0px;
+			padding-left: 16px;	
+			text-align: center;
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}
+		.section-size1 { /*is for the About-link in the menubar*/			
+			display: inline-block;
+			font-family: cursive; 
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 20px;
+			margin-left: -25px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;				
+		}
+		.section-size2 { /*is for the Menu-link in the menubar*/
+			background-color: rgb(139, 118, 100);
+			border: solid 1px rgb(66, 55, 33); 
+			border-radius: 15px;
+			box-shadow: 5px 5px 5px rgb(49, 40, 35);				
+			display: inline-block;
+			font-family: cursive; 
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;			
+		}
+		.section-size3 { /*is for the Meet the buns-link in the menubar*/
+			display: inline-block;
+			font-family: cursive; 
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;	
+		}
+		.section-size4 { /*is for the Pen-Rules-link in the menubar*/
+			display: inline-block;
+			font-family: cursive; 
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;	
+		}
+		.section-size5 { /*is for the Adopt-link in the menubar*/
+			display: inline-block;
+			font-family: cursive;
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;	
+		}
+		.section-size6 { /*is for the Grooming services-link in the menubar*/
+			display: inline-block;
+			font-family: cursive;
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;	
+		}
+		a:active, a:link, a:visited { /*for the links in the menybar*/
+			color: rgb(48, 34, 27);
+			text-decoration: none;	
+			text-shadow: 2px 2px 10px rgb(240, 239, 238);
+		}
+		a:hover {			
+			background-color: rgb(170, 153, 137);
+			border-radius: 5px;
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			padding-top: 8px;
+			padding-right: 0px;
+			padding-bottom: 10px;
+			padding-left: 0px;
+			text-decoration: none;	
+		}	
+		article { /*Is for all of the links in the menubar*/
+			display: inline-block;
+			font-size: 23px; 
+			text-align: center;
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: -20px;
+			margin-left: 380px;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-bottom: 0px;
+			padding-left: 16px;	
+		}
+		body { 
+			font-family: emoji;
+			color: rgb(255, 245, 236);
+			background-color:  #58453b;  
+			min-width: 1400px;
+			max-width: 1400px;
+		}
+		li::marker {
+			color:rgb(48, 34, 27)
+		}
+		main { /*is for the About text */
+			background-color: rgb(139, 118, 100);
+			border: solid 1px rgb(66, 55, 33); 	
+			border-radius: 25px;
+			box-shadow: 5px 5px 5px rgb(49, 40, 35);
+			display: inline-block;
+			font-size: 19px; 	
+			margin-top: -10px;
+			margin-right: 52px;
+			margin-bottom: 16px;
+			margin-left: 350px;
+			padding-top: 0px;
+			padding-right: 200px;
+			padding-bottom: 16px;
+			padding-left: 150px;
+			color:rgb(255, 255, 255);
+			text-align: justify;
+			text-shadow: 2px 2px 10px rgb(49, 40, 35);	
+		}	
+		#kaffe { /*id for the kaffe-bild */
+			display: inline-block;			
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-bottom: 0px;
+			padding-left: 28px;	}
+		
+		</style>
+</head>
+
+<body>   
+<!--Instead of naming everything div, I'll use header for the header text of the site and figure for the logo. Main will wrap it all-->
+	<nav>
+		<header class="header-size">
+			<h3>Opening hours</h3>   
+			<p>Monday - Friday: 10:00 - 21:00<br>Saturday - Sunday: 10:00-18:00</p>
+		</header>
+		<header class="header-size2">
+			<h3>Visit us</h3>
+			<p>The Cafe is located at Bluffgatan 22, <br>at the heart of the Skövde centrum.</p>
+		</header>
+		<header class="header-size3">
+			<h3>Contact</h3>
+<!--I know that you can a href the phonenumber and email, but I think it look better this way-->				
+			<p>Phonenumber: 90 510 <br>E-mail: BunnyCafe@skovde.se</p>
+		</header>
+		<figure class="figure-size">
+			<img src="Bunnycafelogo.png"; style="height: 279px; width: 322px;"> 
+		</figure>
+	</nav>	
+<!--menubar for all the header links-->
+	<article>
+		<section class="section-size1"><a href="about.html">About</a></section>
+		<sections class="section-size2"><a href="menu.html">Menu</a></sections>
+		<section class="section-size3"><a href="meet_the_buns.html">Meet the buns</a></section>
+		<section class="section-size4"><a href="pen-Rules.html">Pen-Rules</a></section>
+		<section class="section-size5"><a href="adopt.html">Adopt/Foster</a></section>	
+		<section class="section-size6"><a href="grooming.html">Grooming services</a></section>
+	</article>
+
+	<main> <!--Menu text-->
+	 
+		<div class="drinks"> <!--This div have the drink options-->
+			<h4 style="text-align: center; color:rgb(210, 197, 164);">Drinks🍹</h4>
+		 	<ul> 
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Coffee</li>
+			<ul>
+				<li><i>Milk | Oat | Almond</i></li>
+					</ul>
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Tea</li>
+			<ul>
+				<li><i>Earl Grey Deluxe | Trollskogen</li> 
+				<li>Afternoon Tea Blend | Mint | Green tea</i></li>
+			</ul>
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Chai Latte</li>
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Hot Chocolate</li>
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Lemonade</li>
+			<ul>
+				<li><i>Strawberry | Citrus | Blueberry | Lavender</i></li>	
+			</ul>
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Bottled Beverages</li>
+			<ul>
+				<li><i>Soda | Iced Tea | Bootled Water | Juice Box</i></li>	
+			</ul>
+			</ul>
+		</div>				
+		<div class="food"> <!--This div have the Food options-->	
+			<h4 style="text-align: center; color: rgb(210, 197, 164);">Food🥪</h4>		
+			<ul>					
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Fluffy Pancakes</li>				
+					<ul>
+						<li><i>Nutella | Strawberry Jam | Blueberry Jam</i></li>	
+					</ul>		
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Crispy Baguette</li>	
+					<ul><li><i>Avokado and Paprika</i></li>
+					</ul>	
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Sourdough Sandwich</li>
+					<ul>
+					<li><i>Avokado and Paprika</i></li>	
+					</ul>
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Sallad with Halloumi</li>
+			</ul>	
+		</div>		
+		<div class="snacks"> <!--This div have the Snacks options-->
+			<h4 style="text-align: center; color:rgb(210, 197, 164);">Snacks🍰</h4>
+			<ul>
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Brownie</li>
+					<ul>
+						<li><i>Whipped Cream | Vanilla Icecream</i></li>	
+					</ul>
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Carrot Cake</li>
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Cheese Cake</li>
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Strawberry Cake</li>	
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Cinnamon bun</li>	
+				<li style="color:rgb(33, 18, 1); text-shadow: none;">Chocolate Chip Cookie</li>
+			</ul>	
+		</div>
+		<figure id="kaffe">
+		<img src="kaffe.png" style="height: 200px; width: 200px;">
+		</figure>
+	</main>
+	
+</body>
+</html>
