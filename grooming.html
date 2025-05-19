@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<head>
+<!--Creating a Title for the projekt-->
+	<title>BunnyCafe</title>
+	<style> 
+		/* Class and Id elements, will propably shorthand them later, just want to be able to toggle the sizes at the moment */	   
+		.figure-size { /* Is for the BunnyCafe logo */			
+			margin-top: -282px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 212px;
+			padding: 16px;				
+		}		
+		.header-size { /* Is for the Opening hours header*/
+			color: rgb(240, 212, 199);
+			display: inline-block;
+			font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+			font-size: 16px;
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 587px;
+			padding: 16px;
+			text-align: center;		
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}	
+		.header-size2 { /* Is for the Visit us header */
+			color:rgb(240, 212, 199);
+			display: inline-block;
+			font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+			font-size: 16px;
+			margin-top: 69px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: 16px;
+			padding-top: 109px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;	
+			text-align: center;
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}
+		.header-size3 { /* Is for the Contact header */
+			color: rgb(240, 212, 199);
+			display: inline-block;
+			font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+			font-size: 16px;
+			margin-top: 16px;
+			margin-right: -148px;
+			margin-bottom: 0px;
+			margin-left: 16px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 0px;
+			padding-left: 16px;				
+			text-align: center;
+			text-shadow: 2px 2px 10px rgb(0, 0, 0);
+		}
+		.section-size1 { /* Is for the About-link in the menubar */
+			background-color: rgb(139, 118, 100);
+			border-radius: 15px;	
+			border: solid 1px rgb(66, 55, 33); 
+			box-shadow: 5px 5px 5px rgb(49, 40, 35);			
+			display: inline-block;		
+			font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;		
+			font-weight: bold;	
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 20px;
+			margin-left: -25px;
+			padding: 16px;						
+		}
+		.section-size2 { /* Is for the rest of the links in the menubar */
+			display: inline-block;
+			font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+			font-weight: bold;
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: 16px;
+			margin-left: -15px;
+			padding: 16px;					
+		}		
+		a:active, a:link, a:visited { /*for the links in the menybar*/
+			color: rgb(250, 210, 158);
+			text-shadow: 2px 2px 10px rgb(49, 40, 35);
+			text-decoration: none; /*gets rid of the link underlines*/	
+		}
+		a:hover {	/* is for the hovering of the links */	
+			background-color: rgb(170, 153, 137);
+			border-radius: 5px;
+			margin: 0px;			
+			padding-top: 8px;
+			padding-right: 0px;
+			padding-bottom: 10px;
+			padding-left: 0px;
+			text-decoration: none; /*gets rid of the link underlines*/				
+		}				      						      
+		article { /*Is for all of the links in the menubar*/
+			display: inline-block;
+			font-size: 23px; 
+			text-align: center;
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: -20px;
+			margin-left: 380px;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-bottom: 0px;
+			padding-left: 16px;	
+		}
+		body { /*For the whole body of the website*/
+			font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif; 						
+			color: rgb(255, 245, 236);
+			background-color: #58453b; 
+			min-width: 1400px;
+			max-width: 1400px;						
+		}	
+		main { /*is for the About text */
+			background-color: rgb(139, 118, 100);
+			border: solid 1px rgb(66, 55, 33); 	
+			border-radius: 25px;
+			box-shadow: 5px 5px 5px rgb(49, 40, 35);			
+			display: inline-block;
+			font-size: 21px; 			
+			margin-top: -10px;
+			margin-right: 51px;
+			margin-bottom: 16px;
+			margin-left: 350px;
+			padding-top: 0px;
+			padding-right: 423px;
+			padding-bottom: 16px;
+			padding-left: 145px;	
+			text-align: center;
+			text-shadow: 2px 2px 10px rgb(49, 40, 35);
+		}		
+		#composeYourself { /*Is for the links in the headers, to make them stay white with darkbrown shadow*/				 	
+			color: rgb(240, 212, 199);
+			text-shadow: 2px 2px 10px rgb(49, 40, 35);								
+		}	
+		#gimmeborder {/*adds border around the text in the main section. */	 		
+		    border: dashed 4px  rgb(77, 58, 48);  
+			border-radius: 25px;						 
+			margin-top: 50px;
+			margin-right: -242px;
+			margin-bottom: 36px;
+			margin-left: 6px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 40px;
+			padding-left: 16px;			
+		}		
+		#madeBymoi { /* for the div furthest down on the page */
+			color: rgb(173, 155, 113);
+			display: inline-block;
+			font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;	
+			font-size: 14px;		
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			padding-left: 743px;	
+			text-align: center;
+		}	
+		#informationtext {				 
+			margin-top: 16px;
+			margin-right: 16px;
+			margin-bottom: -19px;
+			margin-left: 16px;
+			padding-top: 16px;
+			padding-right: 16px;
+			padding-bottom: 16px;
+			padding-left: 16px;
+			text-align: center;	
+		}	 
+		#form_makeover {			
+		  background-color: #58453b; 
+			border: solid 2px rgb(66, 55, 33); 
+			border-radius: 15px;				
+			display: inline-block;			
+			margin-top: 11px;
+			margin-right: 18px;
+			margin-bottom: 36px;						
+			padding-right: 21px;
+			padding-bottom: 21px;
+			padding-left: 21px;
+			text-align: center;	 
+		}	
+			input [type=checkbox] {
+			border: #291d16;
+			border-radius: 30px;
+			text-shadow: #291d16;			
+		}
+		input[type=text] {			
+			padding: 8px;
+			border-radius: 20px;
+			background:rgb(250, 202, 140);							
+		}
+		input[type=radio] {			
+			cursor: pointer;		
+		}
+		input[type=submit] {
+			background-color: rgb(173, 155, 113);
+			border:solid rgb(48, 34, 27);
+			border-radius: 10px;
+			cursor: pointer;
+			color: #291d16;
+			font-weight: bold;
+			padding: 8px;
+		}
+		input[type=date] {
+			background-color: rgb(250, 202, 140);		
+			border-radius: 10px;
+			padding: 10px;			
+		}
+		input[type=tel] {
+			background-color: rgb(250, 202, 140);		
+			border-radius: 10px;
+			padding: 10px;
+		}
+		input[type=email] {
+			background-color: rgb(250, 202, 140);		
+			border-radius: 10px;
+			padding: 10px;
+		}
+		input[type=number] {
+			background-color: rgb(250, 202, 140);		
+			border-radius: 10px;
+			padding: 5px;
+		}
+		textarea {
+			background-color: rgb(250, 202, 140);			
+			width: 200px;			
+			padding: 15px;
+			border-radius: 20px;
+			border: 0;
+			box-shadow: 4px 4px 10px black;
+			resize: vertical;
+		}		
+	</style>
+</head>
+<body>   
+	<!--Instead of naming everything div, I'll use nav and header for the header texts of the site and figure for the logo. Main will wrap it all-->
+	<nav>
+		<header class="header-size">
+			<h3 style="color: rgb(250, 210, 158)">Opening hours</h3>   
+			<p>Monday - Friday: 10:00 - 20:00<br>Saturday - Sunday: 11:00-18:00</p>
+		</header>
+		<header class="header-size2">
+			<h3 style="color: rgb(250, 210, 158)">Visit us</h3>
+			<p>The Cafe is located at <a href="https://www.google.com/maps/place/SushiYaki+Noodle/@58.3905375,13.8426075,
+				17z/data=!3m1!5s0x465b0237708c8e7d:0xb979c84063b4feeb!4m14!1m7!3m6!1s0x465b02376568607b:0xbfd2915a0b20ca0e!
+				2sCommerce!8m2!3d58.3905347!4d13.8448606!16s%2Fg%2F11dyly4qs!3m5!1s0x465b023743d1fdbb:0xd5b5cb76b7fcf71!8m2!3d58.
+				3904751!4d13.8469243!16s%2Fg%2F11c2lr3f04?entry=ttu&g_
+				ep=EgoyMDI1MDUxMy4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D" id="composeYourself">Morotsstigen 22</a><br>at the heart of the Skövde centrum.</p>
+		</header>
+		<header class="header-size3">
+			<h3 style="color: rgb(250, 210, 158)">Contact</h3><!--Contact info-->	
+			<p><a href="tel:0790083696" id="composeYourself">Phonenumber: 079 008 3696</a><br><a href="https://wabbitwiki.com/wiki/Getting_started_with_a_rabbit" id="composeYourself">E-mail: BunnyCafe@skovde.se</a></p> 
+		</header>
+		<figure class="figure-size">
+			<img src="Bunnycafelogo.png" style="height: 279px; width: 322px;"> 
+		</figure>
+	</nav>	
+<!--Menu link bar, article wraps it all up-->
+	<article>
+		<section class="section-size2"><a href="about.html">About</a></section>
+		<sections class="section-size2"><a href="menu.html">Menu</a></sections>
+		<section class="section-size2"><a href="meet_the_buns.html">Meet the buns</a></section>
+		<section class="section-size2"><a href="pen-Rules.html">Pen-Rules</a></section>
+		<section class="section-size2"><a href="adopt.html">Adopt/Foster</a></section>	
+		<section class="section-size1"><a href="grooming.html">Grooming services</a></section>
+	</article>
+
+	<main>
+	<!--text information about the grooming service-->	
+	<div id="gimmeborder">		
+			<h2 style="color:rgb(59, 48, 42); text-shadow: none;">Psst, over here!</h2>		
+			<p>Need help with nail trimming?<br>
+				Maybe your rabbit is in dire need of a thoroughly brushing?</p>
+			<p>Our experienced bunny groomers <br>are on the case!</p>
+			<img src="smultron1.png"; style="height: 52px; width: 201px;"> 
+			<p>Book an appointment at the cafe directly<br> or fill out the interest form down on this page. 
+				<br><br>When the form has been submitted, <br>we will contact you to schedule an appointment.</p>
+			<p>Hop to see you soon!</p>
+			<img src="bunbow.png"; style="height: 150px; width: 150px;" id="bunbowpic">
+		
+	<!--The information for the application form-->
+			<div id="form_makeover">		
+				<h3 style="color:rgb(250, 202, 140);"><u>Grooming services application</u></h3>	
+				<form action="https://formspree.io/f/xqaqgqao" method="POST">
+<!--radio input type, with name making it possible to only choose one option-->
+					<label for="trim" style="color:#291d16; text-shadow: none;"><b>My bunny need:</b></label><br><br>
+					<label for="nail" style="color:rgb(250, 202, 140);">Nail trimming</label>
+					<input type="radio" id="nail" value="nail" name="trim">
+					<label for="brush" style="color:rgb(250, 202, 140);">Brushing</label>
+						<input type="radio" id="brushing" value="brushing" name="trim">
+					<label for="both" style="color:rgb(250, 202, 140);">both</label>
+						<input type="radio" id="both" value="both" name="trim"><br><br>	
+		<!--number of rabbits-->		
+					<label for="quantity" style="color:rgb(250, 202, 140);">Number of rabbits:</label>	
+						<input type="number" id="quantity" min="1" max="99" required><br>
+		<!--Name of the rabbits-->	
+					<label for="bunnyname" style="color:#291d16; text-shadow: none;"><b>Rabbit name/names:</label>
+						<input type="text" id="bunnyname" placeholder="Flopsy, Lopsy, Boop"><br><br>
+		<!--Users name-->
+					<label for="fullname" style="color:#291d16; text-shadow: none;">Your full name:</label>
+						<input type="text" id="fullname" placeholder="Peter Parker" required><br>							
+		<!--Email-->				
+					<label for="email" style="color:#291d16; text-shadow: none;">Email:</label>	
+						<input type="email" id="email" placeholder="not.spiderman@hotmail.com" required><br><br>
+		<!--Phonenumber-->			
+					<label for="phonenumber" style="color:#291d16; text-shadow: none;">Phonenumber:</label>	
+						<input type="tel" id="phonenumber" required><br><br>
+		<!--Possible to comment-->			
+					<label for="comment" style="color:#291d16; text-shadow: none;">Comment:</label>	
+						<textarea id="comment" row="10" cols="50"></textarea><br><br>	
+		<!--Checkbox for subscription on newsletter-->							
+					<label for="subscribe" style="color:rgb(250, 202, 140);">Subscribe for BunnyCafe Newsletter?🐰</label>
+						<input type="checkbox" id="subscribe"><br><br>	
+		<!--submit button-->							
+					<input type="submit" value="Send">
+				</form>		
+			</div>
+		</div>		
+	</main>		
+	<footer id ="madeBymoi">
+		<p>Project © 2025VT Webbutveckling 1<br>Rebecka Frejd</p>
+	</footer>
+</body>
+</html>
