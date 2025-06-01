@@ -1,7 +1,7 @@
 # Project Notes
 Bunnycafe logga: 1 timme
-Hitta kaninbilder: 15 min
-28 april: 2 timmar med header + 1:50min
+<br>Hitta kaninbilder: 15 min
+<br>28 april: 2 timmar med header + 1:50min
 29 april: 2 timmar med att läsa om iframe och testa att göra menu bar.
 4 maj: 3 h
 5 maj: 2 h
