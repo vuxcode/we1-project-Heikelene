@@ -16,4 +16,4 @@ Bunnycafe logga: 1 timme
 <br>28 maj: validering 8 timmar.
 
 
-<br>Sammanlagt 50 timmar tog projektet men säkert mer för ibland slarvade jag med att logga tiden.
+<br>Sammanlagt 50 timmar tog projektet men säkert mer för ibland slarvade jag med att logga tiden. Mycket av tiden var att läsa på och att testa sig fram vad som fungerade och inte fungerade för mig.
