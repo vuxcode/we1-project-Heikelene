@@ -26,6 +26,8 @@ Jag hade hemskt svårt att veta vart jag skulle börja vilket resulterade att ja
 
 Hade jag haft mer tid och hunnit skaffa mig mer kunskaper, hade jag nog gärna tagit med popup fönster för alla kaninerna under fliken "Meet the buns". Att när man trycker på deras namn så kommer det upp någon liten textruta med information om kaninen. Jag hade nog också gärna lärt mig mer om iframe då jag tog den "enkla" vägen ut och bara gjorde olika links till de olika flikarna, men jag tyckte att det fungerade bäst för min sida.
 
-Min budget hamnade på nog över 50 timmar där mycket av tiden gick åt av att jag skulle testa vad som fungerade och inte fungerade. Jag lade ganska mycket tid på att skakigt rita i gimp med, vilket jag inte heller är van vid, så jag fick lära mig grunderna där också. När jag ska skriva någonting så tar det också väldigt lång tid, för jag måste fundera på hur jag ska formulera mig och stavningar då jag alltid har haft lite svårt med stavning (vilket kan bli en rolig läsnign i sig 🙂).   
+Min budget hamnade på nog över 50 timmar där mycket av tiden gick åt av att jag skulle testa vad som fungerade och inte fungerade. Jag lade ganska mycket tid på att skakigt rita i gimp med, vilket jag inte heller är van vid, så jag fick lära mig grunderna där också. När jag ska skriva någonting så tar det också väldigt lång tid, för jag måste fundera på hur jag ska formulera mig och stavningar då jag alltid har haft lite svårt med stavning (vilket kan bli en rolig läsning i sig 😉). 
+
+Allt som allt är jag nöjd med resultatet och jag kommer fortsätta att lära mig mer för att jag bara tycker att det är kul! Jag kan också tänka mig att jobba med webbdesign eller liknande i framtiden tack vare denna kurs, då jag nu vet att kodning inte är så läskigt egentligen, att till och med en oteknisk person som jag kan lära sig att koda. 🙂🐰 
 
 
